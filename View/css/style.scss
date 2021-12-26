@@ -1,0 +1,136 @@
+html {
+  font-size: 62.5%;
+}
+input {
+  font-size: 1.7rem;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: #eff3fa;
+  border-radius: 0.7rem;
+  transition: background-color 0.2s linear;
+  &:focus {
+    background-color: white;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+label {
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+body {
+  background-color: #cccccc;
+}
+select {
+  display: inline-block;
+  margin: 2rem 0;
+}
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+a {
+  text-decoration: none;
+  display: block;
+  color: blue;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+button {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 0 none;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+  background-color: #eee;
+  display: block;
+  &:hover {
+    background-color: #291667;
+    color: white;
+  }
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  th {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+    background-color: #ccc;
+  }
+  tr {
+    margin: 1rem 0;
+    border-bottom: 1px solid #ccc;
+  }
+  tr:nth-child(2n) {
+    background-color: #eee;
+  }
+  td {
+    padding: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+}
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #291667;
+}
+.content {
+  margin: 5rem auto;
+  width: 60rem;
+  height: auto;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0.5rem #9e9e9e;
+}
+.sign {
+  &__up {
+    &-form {
+      margin: 5rem auto;
+      width: 60rem;
+      height: 30rem;
+      font-size: 2rem;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 0 1rem 0.5rem #9e9e9e;
+    }
+  }
+}
+.container {
+  width: 160rem;
+  margin: 5rem auto;
+  font-size: 1.8rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0.5rem #9e9e9e;
+}
+.message {
+  color: red;
+  margin-top: 3rem;
+}
+.header {
+  text-align: right;
+}
+.logout {
+  display: inline-block;
+  margin-bottom: 5rem;
+  color: red;
+  padding: 1rem 1.2rem;
+  background-color: #ccc;
+  border-radius: 1rem;
+}
